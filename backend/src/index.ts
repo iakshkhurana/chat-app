@@ -41,3 +41,17 @@ wss.on("connection", (socket: WebSocket) => {
         allSockets = allSockets.filter(u => u.socket !== socket);
     });
 });
+
+
+/*
+
+Syntax
+
+{
+    "type" : "___",
+    "payload":{
+        "message":"______"
+    }
+}
+
+*/
