@@ -34,3 +34,15 @@ wss.on("connection", (socket) => {
         allSockets = allSockets.filter(u => u.socket !== socket);
     });
 });
+/*
+
+Syntax
+
+{
+    "type" : "___",
+    "payload":{
+        "message":"______"
+    }
+}
+
+*/ 
